@@ -3,7 +3,9 @@ PGB Example Core using the Cordova 'Splashscreen' plugin
 
 This app uses the Cordova 'Device' & Splashscreen' plugin.
 
-The app uses the 'Device' and 'Splashscreen' plugins. As well as BOM (Browser Object Model) Objects available on Android' Webview. 
+The app uses the 'Device' and 'Splashscreen' plugins. As well as BOM (Browser Object Model) Objects available on Android' Webview.
+
+**BUG** The default build cli-6.5.0 did NOT work with the latest version (5.0.2) of the 'Splashscreen'. cli-7.0.1 was required. The are ten (10) build version available and at least six (6) plugins version that may work. I will try all sixty (60) combinations at a later time.
 
 * https://www.npmjs.com/package/cordova-plugin-device
 * https://www.npmjs.com/package/cordova-plugin-splashscreen

@@ -65,7 +65,6 @@ function onDeviceReady() {
     document.getElementById('appVersion').innerHTML    = app.version;
     if (isCordovaApp()) {
         deviceStuff();
-        document.getElementById('buttonSplash').addEventListener('touchend', showSplash, false);
     }
 
 }
@@ -73,7 +72,4 @@ function onDeviceReady() {
 function showSplash() {
     splashscreenPlugin.show();
 }
-
-
-
 
