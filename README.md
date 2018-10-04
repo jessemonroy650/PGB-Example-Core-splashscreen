@@ -11,7 +11,8 @@ The app uses the 'Device' and 'Splashscreen' plugins. As well as BOM (Browser Ob
 **Note** Android apps are not required to have splashscreens or to have all sizes. However, professional developers should encourage clients to have a more professional appearance. See *Android Developer Documentation* [App startup time](https://developer.android.com/topic/performance/vitals/launch-time) and [User Interface & Navigation](https://developer.android.com/guide/topics/ui/)
 
 ## Android config.xml
-    [App Icon and Splash Screen Sizes](https://github.com/phonegap/phonegap/wiki/App-Splash-Screen-Sizes)
+
+* [Docs: App Icon and Splash Screen Sizes](https://github.com/phonegap/phonegap/wiki/App-Splash-Screen-Sizes)
 
     <platform name="android">
         <!-- you can use any density that exists in the Android project -->
@@ -47,7 +48,8 @@ The app uses the 'Device' and 'Splashscreen' plugins. As well as BOM (Browser Ob
 * XXXHDPI: 1920x1280px
 
 ### Preferences
-    [docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#preferences)
+
+* [Docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#preferences)
 
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="3000" />
@@ -59,14 +61,16 @@ To disable the splashscreen add the following preference to config.xml:
     <preference name="SplashScreenDelay" value="0"/>
 
 ### Android Quirks
-    [docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#android-quirks)
+
+* [Docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#android-quirks)
 
     <preference name="SplashMaintainAspectRatio" value="true|false" />
     <preference name="SplashShowOnlyFirstTime" value="true|false" />
     <preference name="SplashScreenSpinnerColor" value="white" />
 
 ## Methods
-    [docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#methods)
+
+* [Docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#methods)
 
 * splashscreen.show()
 * splashscreen.hide()
