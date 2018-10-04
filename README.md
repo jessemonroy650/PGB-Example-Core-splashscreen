@@ -49,7 +49,7 @@ The app uses the 'Device' and 'Splashscreen' plugins. As well as BOM (Browser Ob
 
 ### Preferences
 
-* [Docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#preferences)
+ [Docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#preferences)
 
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="3000" />
@@ -62,7 +62,7 @@ To disable the splashscreen add the following preference to config.xml:
 
 ### Android Quirks
 
-* [Docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#android-quirks)
+ [Docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#android-quirks)
 
     <preference name="SplashMaintainAspectRatio" value="true|false" />
     <preference name="SplashShowOnlyFirstTime" value="true|false" />
@@ -70,7 +70,7 @@ To disable the splashscreen add the following preference to config.xml:
 
 ## Methods
 
-* [Docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#methods)
+ [Docs](https://www.npmjs.com/package/cordova-plugin-splashscreen#methods)
 
 * splashscreen.show()
 * splashscreen.hide()
