@@ -12,7 +12,7 @@ The app uses the 'Device' and 'Splashscreen' plugins. As well as BOM (Browser Ob
 
 ## Android config.xml
 
-* [Docs: App Icon and Splash Screen Sizes](https://github.com/phonegap/phonegap/wiki/App-Splash-Screen-Sizes)
+[Docs: App Icon and Splash Screen Sizes](https://github.com/phonegap/phonegap/wiki/App-Splash-Screen-Sizes)
 
     <platform name="android">
         <!-- you can use any density that exists in the Android project -->
