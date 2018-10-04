@@ -27,12 +27,13 @@
     <script type="text/javascript" charset="utf-8" src="app.js"></script>
     <script type="text/javascript" charset="utf-8" src="splashscreen.js.js"></script>
 </head>
-<body onload="onLoad()" class=height100percent>
+<body class=height100percent>
     <div id=header class="button button-block button-large">
         <img align=left src=favicon-48x48.png>
         PGB Core 'Splashscreen' plugin
         <button id=exitApp onclick='navigator.app.exitApp()' class="button button-pill button-primary button-large" style="margin:0.1em;float:right;">Exit</button>
     </div>
+    <button id=buttonSplash class="button button-pill button-primary button-large" style="margin:0.1em;float:left;">splash</button>
 
     <h3>App Version v<span id=appVersion></span></h3>
 
@@ -56,7 +57,7 @@
     <script type="text/javascript">
     //
     //
-    //
+    // Disabled for this app
     function onLoad() { alert("body loaded."); }
     //
     // The 'DOMContentLoaded' event fires before the 'deviceready'
