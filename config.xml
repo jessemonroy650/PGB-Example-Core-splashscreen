@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.bsdmasterindex.pgb-example-core-splashscreen"
+        version     = "1.0.0"
+        versionCode = "10" >
+        <!-- versionCode is optional and Android only -->
+        <!-- https://build.phonegap.com/current-support -->
+        <preference name="phonegap-version" value="cli-6.0.0" />
+
+        <name>PGB Example Core Splashscreen</name>
+        <description>PGB Example of Cordova Core plugin: 'Splashscreen'</description>
+        <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">
+        Jesse Monroy
+        </author>
+
+        <!-- PLUGINS PLUGINS -->
+        <!-- device required so we can detect if we are using iOS -->
+        <plugin name="cordova-plugin-device" spec="~2.0.2" />
+        <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+
+        <!-- Android SECTION -->
+        <platform name="android">
+            <!-- you can use any density that exists in the Android project -->
+            <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
+            <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
+            <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>
+            <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi"/>
+            <splash src="res/screen/android/splash-land-xxhdpi.png" density="land-xxhdpi"/>
+            <splash src="res/screen/android/splash-land-xxxhdpi.png" density="land-xxxhdpi"/>
+ 
+            <splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi"/>
+            <splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi"/>
+            <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi"/>
+            <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi"/>
+            <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xxhdpi"/>
+            <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xxxhdpi"/>
+        </platform>
+
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreenDelay" value="5000" />
+        <preference name="SplashMaintainAspectRatio" value="true" />
+        <preference name="SplashShowOnlyFirstTime" value="false" />
+        <preference name="SplashScreenSpinnerColor" value="white" />
+
+    </widget>
