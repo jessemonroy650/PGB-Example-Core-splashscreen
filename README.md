@@ -1,5 +1,5 @@
 # PGB-Example-Core-Splashscreen
-PGB Example Core using the Cordova 'Splashscreen' plugin
+PGB Example Core using the Cordova 'Splashscreen' plugin using cli-7.0.1
 
 The app uses the 'Device' and 'Splashscreen' plugins. As well as BOM (Browser Object Model) Objects available on Android' Webview.
 
